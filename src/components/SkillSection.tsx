@@ -3,8 +3,8 @@ import React from "react";
 interface Skill {
   title: string;
   hash: string;
-  icon?: any;
-  color?: any;
+  icon?: unknown;
+  color?: unknown;
 }
 
 interface SkillCategory {

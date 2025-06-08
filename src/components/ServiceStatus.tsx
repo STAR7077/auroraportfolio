@@ -36,7 +36,7 @@ const ServiceStatus: React.FC = () => {
     }
 
     getStatusData();
-  }, []);
+  }, [apiServiceStatusURL]);
   return (
     <React.Fragment>
       <Link to="https://status.alpaycelik.dev">

@@ -22,7 +22,7 @@ const AboutMe: React.FC = () => {
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  const onAutoplayTimeLeft = (_s: any, time: number, progress: number) => {
+  const onAutoplayTimeLeft = (_s: unknown, time: number, progress: number) => {
     if (progressCircle.current && progressContent.current) {
       progressCircle.current.style.setProperty(
         "--progress",

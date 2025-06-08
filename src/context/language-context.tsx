@@ -59,6 +59,7 @@ export default function LanguageContextProvider({
   );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useLanguage() {
   const context = useContext(LanguageContext);
 

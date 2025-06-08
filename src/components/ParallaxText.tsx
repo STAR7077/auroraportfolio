@@ -1,4 +1,3 @@
-// @ts-nocheck
 
 import { useRef, useState, useEffect } from "react";
 import {
@@ -13,10 +12,12 @@ import {
 import { wrap } from "@motionone/utils";
 import { Link } from "react-router-dom";
 import { useLanguage } from "../context/language-context";
-import { sideBarLeftSocials, liveTickerData } from "../assets/lib/data";
+import { liveTickerData } from "../assets/lib/data";
+
+import { ReactNode } from "react";
 
 interface ParallaxProps {
-  children: any;
+  children: ReactNode;
   baseVelocity: number;
 }
 
@@ -128,8 +129,7 @@ export default function LiveTicker() {
     <>
       <div className="bg-[--lightblue] h-[4.8vh] -rotate-3 flex justify-center items-center scale-110 relative z-[1] w-full min-[1921px]:h-[3.3vh]">
         <ParallaxText baseVelocity={-1}>
-          <Link
-            // to={sideBarLeftSocials[1].link}
+          <Link to={""}            // to={sideBarLeftSocials[1].link}
             // target="_blank"
             // rel="noopener noreferrer"
           >

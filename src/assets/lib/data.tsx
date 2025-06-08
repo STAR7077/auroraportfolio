@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import adobexdicon from "../../assets/icons/adobexdicon.svg";
 import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
@@ -9,22 +10,15 @@ import reacticon from "../../assets/icons/reacticon.svg";
 import nextjsicon from "../../assets/icons/nextjsicon.svg";
 import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
-import mongodbicon from "../../assets/icons/mongoicon.svg";
 import vuejsicon from "../../assets/icons/vueicon.svg";
 import laravel from "../../assets/icons/laravel.svg"
 import jqueryicon from "../../assets/icons/jquery.svg";
 import gsapicon from "../../assets/icons/gsapicon.svg";
 import cloudflareicon from "../../assets/icons/cloudflareicon.svg";
 import googletagicon from "../../assets/icons/googletagicon.svg";
-import expressicon from "../../assets/icons/expressicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
-import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
-import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
-import jwticon from "../../assets/icons/jwticon.svg";
 import python from "../../assets/icons/python.svg";
 import django from "../../assets/icons/django.svg"
 import postgresql from "../../assets/icons/postgresql.svg";
@@ -36,7 +30,6 @@ import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
-import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import phpwhite from "../../assets/icons/php-white.svg";
 import phpdark from "../../assets/icons/php-dark.svg";
 import phpicon from "../../assets/icons/phpicon.svg";
@@ -51,13 +44,10 @@ import emoticon from "../../assets/icons/emoticon.svg";
 import rssicon from "../../assets/icons/rssicon.svg";
 import youtube from "../../assets/icons/youtube.svg";
 import nginx from "../../assets/icons/nginx.svg";
-import ubuntu from "../../assets/icons/ubuntu.svg";
 
 
 import toollifelabel from "../../assets/img/tools.lifelabel.png"
 import malithaikoshiki from "../../assets/img/malithaikoshiki.png";
-import tabioMockup from "../../assets/img/tabio.png";
-import fossetteMockup from "../../assets/img/fossette.png";
 import profilepicture from "../img/me2.webp";
 import kumamoto from "../img/kumamoto.png";
 import takagikaikei from "../img/takagikaikei.png";
@@ -66,11 +56,9 @@ import komons from "../img/komons.png";
 import kikkoman from "../img/kikkoman.png";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
-import { FiGithub, FiLink, FiLinkedin, FiMail, FiDisc, FiCloud ,FiSend ,FiHexagon  } from "react-icons/fi";
-import { FaDiscord, FaTelegram, FaSkype  } from "react-icons/fa";
+import { FiGithub, FiLink, FiMail,  } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
 import Privacy from "../../components/Privacy";
-import { BsBadgeSdFill } from "react-icons/bs";
 
 export const headerIntroData = {
   title: {
