@@ -29,9 +29,6 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
-import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
-import phpwhite from "../../assets/icons/php-white.svg";
-import phpdark from "../../assets/icons/php-dark.svg";
 import phpicon from "../../assets/icons/phpicon.svg";
 import video from "../../assets/icons/video.svg";
 import hubspot from "../../assets/icons/hubspot.svg";
@@ -94,35 +91,7 @@ export const headerIntroData = {
 } as const;
 
 export const projectsData = [
-  // { name: "Html", icon: htmlicon },
-  // { name: "CSS", icon: cssicon },
-  // { name: "JavaScript", icon: javascripticon },
-  // { name: "GSAP", icon: gsapicon },
-  // { name: "Jquery", icon: jqueryicon },
-  // { name: "Cloudflare", icon: cloudflareicon },
-  // { name: "Googletagicon", icon: googletagicon },
-  // { name: "Figma", icon: figmaicon },
-  // { name: "REST Api", icon: apiicon },
-  // { name: "PHP", icon: phpicon },
-  // { name: "Video", icon: video },
-  // { name: "Canva", icon: canvaicon },
-  // { name: "Hubspot", icon: hubspot },
-  // { name: "Amazon", icon: amazonicon },
-  // { name: "Render", icon: rendericon },
-  // { name: "Google Font", icon: googlefont },
-  // { name: "Litespeed", icon: litespeedicon },
-  // { name: "Wordpress", icon: wordpressicon },
-  // { name: "MySQL", icon: mysql },
-  // { name: "Open graph", icon: opengraph },
-  // { name: "Unpkg", icon: unpkg },
-  // { name: "Vue", icon: vuejsicon },
-  // { name: "Emoticon", icon: emoticon },
-  // { name: "RSS", icon: rssicon },
-  // { name: "Youtube", icon: youtube },
-  // { name: "nginx", icon: nginx },
-  // { name: "React", icon: reacticon },
 
-  
   {
     title: "LIFE LABEL Tools",
     description:
@@ -396,8 +365,8 @@ export const skillsDataWeb = [
       {
         title: "PHP",
         hash: "#PHP",
-        icon: [phpdark, phpwhite],
-        color: ["#3300F0", "#3300F0"],
+        icon: phpicon,
+        color: "#00AA55",
       },
       {
         title: "Python",
@@ -426,8 +395,8 @@ export const skillsDataWeb = [
       {
         title: "Next.js",
         hash: "#Next.js",
-        icon: [nextjsicon, nextjsiconwhite],
-        color: ["#000000", "#38B2AC"],
+        icon: nextjsicon,
+        color: "#007ACC",
       },
       {
         title: "Vue.js",
@@ -441,12 +410,6 @@ export const skillsDataWeb = [
         icon: django,
         color: "#30FF30",
       },
-      // {
-      //   title: "Express",
-      //   hash: "#Express",
-      //   icon: [expressicon, expressiconwhite],
-      //   color: "#FF0000",
-      // },
       {
         title: "Mysql",
         hash: "#Mysql",
@@ -459,13 +422,6 @@ export const skillsDataWeb = [
         icon: postgresql,
         color: "#770066",
       },
-      // {
-      //   title: "MongoDB",
-      //   hash: "#MongoDB",
-      //   icon: mongodbicon,
-      //   color: "#449C45",
-      // },
-      
     ],
   },
 ] as const;

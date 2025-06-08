@@ -3,7 +3,7 @@ import React from "react";
 interface Skill {
   title: string;
   hash: string;
-  icon?: unknown;
+  icon?: string | string[] | undefined;
   color?: unknown;
 }
 
@@ -13,34 +13,35 @@ interface SkillCategory {
 }
 
 interface SkillSectionProps {
-  skillsData: readonly SkillCategory[];
+  skillsData: SkillCategory[];
   theme: "dark" | "light";
 }
 
 const SkillSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
-  const getSkillIconSrc = (theme: string, skill: Skill) => {
+  const getSkillIconSrc = (theme: string, skill: Skill): string | undefined => {
     if (
       theme === "dark" &&
-      (skill.title.includes("Next") || skill.title.includes("Express") || skill.title.includes("PHP") )
+      (skill.title.includes("Express") )
     ) {
-      return skill.icon[1];
-    } else if (skill.title !== "Next.js" && skill.title !== "Express" && skill.title !== "PHP") {
-      return skill.icon;
+      return Array.isArray(skill.icon) ? skill.icon[1] || undefined : undefined;
+    } else if ( skill.title !== "Express") {
+      return typeof skill.icon === "string" ? skill.icon : undefined;
     } else {
-      return skill.icon[0];
+      return Array.isArray(skill.icon) ? skill.icon[0] || undefined : undefined;
     }
+    
   };
 
   const getSkillColor = (theme: string, skill: Skill) => {
     if (
       theme === "dark" &&
-      (skill.title.includes("Next") || skill.title.includes("Express") || skill.title.includes("PHP") )
+      (skill.title.includes("Express")  )
     ) {
-      return skill.color[1];
-    } else if (skill.title !== "Next.js" && skill.title !== "Express" && skill.title !== "PHP") {
-      return skill.color;
+      return (skill.color as string[])[1];
+    } else if (skill.title !== "Express" ) {
+      return skill.color as string;
     } else {
-      return skill.color[0];
+      return (skill.color as string[])[0];
     }
   };
 
