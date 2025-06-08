@@ -65,7 +65,7 @@ export const headerIntroData = {
   subtitle: "Fullstack Developer ",
   description: {
     jp: "私は松内翼です。キャリアを向上させ、刺激的なプロジェクトに参加することを目標とするフルスタック開発者です。ここでは、私の仕事とWeb開発への情熱を紹介します。共にデジタルソリューションを創造し、未来を創りましょう！",
-    en: "I'm Jirou, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    en: "I'm Tsubasa, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
