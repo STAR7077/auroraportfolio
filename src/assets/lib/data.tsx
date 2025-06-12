@@ -44,7 +44,7 @@ import nginx from "../../assets/icons/nginx.svg";
 import studio from "../../assets/icons/studio.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
 import render from "../../assets/icons/rendericon.svg";
-
+import paypal from "../../assets/icons/paypal.svg";
 
 import toollifelabel from "../../assets/img/tools.lifelabel.png"
 import tokyotreat from "../../assets/img/tokyotreat.png";
@@ -53,6 +53,7 @@ import kumamoto from "../img/kumamoto.png";
 import millab from "../img/millab.png";
 import mwmoutdoor from "../img/mwm-outdoor.com.png";
 import kikkoman from "../img/kikkoman.png";
+import kitamura from "../img/ohayo-kitamura.png";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiMail,  } from "react-icons/fi";
@@ -175,6 +176,39 @@ export const projectsData = [
     ],
     image: millab,
     deploymenturl: "https://millab.jp/products/millabe01",
+    githuburl:"https://github.com/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
+    },
+  },
+  //Millab
+  {
+    title: "Ohayo Kitamura ",
+    description:
+      "旬の食材と丁寧な手仕事で仕上げた、心温まる和朝食弁当をお届け。東京エリアでの配達・ケータリングサービスも対応しています。おいしい一日のはじまりを「おはようキタムラ」で。",
+    description_EN:
+      "Ohayo Kitamura delivers lovingly prepared Japanese breakfast bentos using seasonal ingredients and traditional techniques. Enjoy the taste of home-style cooking with delivery and catering options in Tokyo.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Shopify", icon: shopifyicon },
+      { name: "Jquery", icon: jqueryicon },
+      { name: "PHP", icon: phpicon },
+      { name: "SEO", icon: seo },
+      { name: "MySQL", icon: mysql },
+      { name: "PayPal", icon: paypal },
+      { name: "Google Font API", icon: googlefont },
+      { name: "Google Tag", icon: googletagicon },
+      { name: "Cloudflare", icon: cloudflareicon },
+    ],
+    image: kitamura,
+    deploymenturl: "https://ohayo-kitamura.com/",
     githuburl:"https://github.com/",
     githubicon: FiGithub,
     deploymenticon: FiLink,
