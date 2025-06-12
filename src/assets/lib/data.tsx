@@ -473,9 +473,9 @@ export const skillsDataCMS = [
         color: "#7AB55C",
       },
       {
-        title: "Webflow",
-        hash: "#Webflow",
-        icon: webflowicon,
+        title: "STUDIO",
+        hash: "#STUDIO",
+        icon: studio,
         color: "#4353FF",
       },
       
