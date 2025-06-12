@@ -25,7 +25,7 @@ import postgresql from "../../assets/icons/postgresql.svg";
 import mysql from "../../assets/icons/mysql.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
-import webflowicon from "../../assets/icons/webflowicon.svg";
+// import webflowicon from "../../assets/icons/webflowicon.svg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
