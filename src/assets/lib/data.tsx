@@ -18,7 +18,7 @@ import cloudflareicon from "../../assets/icons/cloudflareicon.svg";
 import googletagicon from "../../assets/icons/googletagicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
-import rendericon from "../../assets/icons/rendericon.svg";
+import seo from "../../assets/icons/seo.svg";
 import python from "../../assets/icons/python.svg";
 import django from "../../assets/icons/django.svg"
 import postgresql from "../../assets/icons/postgresql.svg";
@@ -41,15 +41,18 @@ import emoticon from "../../assets/icons/emoticon.svg";
 import rssicon from "../../assets/icons/rssicon.svg";
 import youtube from "../../assets/icons/youtube.svg";
 import nginx from "../../assets/icons/nginx.svg";
+import studio from "../../assets/icons/studio.svg";
+import axiosicon from "../../assets/icons/axiosicon.svg";
+import render from "../../assets/icons/rendericon.svg";
 
 
 import toollifelabel from "../../assets/img/tools.lifelabel.png"
-import malithaikoshiki from "../../assets/img/malithaikoshiki.png";
+import tokyotreat from "../../assets/img/tokyotreat.png";
 import profilepicture from "../img/me2.webp";
 import kumamoto from "../img/kumamoto.png";
 import takagikaikei from "../img/takagikaikei.png";
-import ilovebargavillas from "../img/ilovebargavillas.png";
-import komons from "../img/komons.png";
+import millab from "../img/millab.png";
+import mwmoutdoor from "../img/mwm-outdoor.com.png";
 import kikkoman from "../img/kikkoman.png";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
@@ -91,7 +94,7 @@ export const headerIntroData = {
 } as const;
 
 export const projectsData = [
-
+  //LIFE LABEL Tools
   {
     title: "LIFE LABEL Tools",
     description:
@@ -121,6 +124,69 @@ export const projectsData = [
       projectcolor: "#E3964A",
     },
   },
+  //M.W.M CAMP WITH FAMILY
+  {
+    title: "M.W.M CAMP WITH FAMILY",
+    description:
+      "ファミリーキャンプを通して、今しか作れない一生の思い出を。都会の喧騒を離れ、満天の星空の下、焚火を眺めながら過ごす何気ない時間を、M.W.Mがサポートします。",
+    description_EN:
+      "Creating lifelong memories with your family through camping — moments that can only be made right now. M.W.M supports your family’s adventure by helping reduce setup time and focusing on what's most important: time together under the stars around the campfire.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Jquery", icon: jqueryicon },
+      { name: "Wordpress", icon: wordpressicon },
+      { name: "SEO", icon: seo },
+      { name: "Php", icon: phpicon },
+      { name: "MySQL", icon: mysql },
+      { name: "Open graph", icon: opengraph },
+      { name: "RSS", icon: rssicon },
+      { name: "nginx", icon: nginx },
+    ],
+    image: mwmoutdoor,
+    deploymenturl: "https://mwm-outdoor.com/",
+    githuburl:"https://github.com/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
+    },
+  },
+  //Millab
+  {
+    title: "Millab ",
+    description:
+      "ミラボは、小学生向けに自宅で楽しく学べるオンライン理科実験を提供するサービスです。専門家の監修による実験で、子どもの好奇心と考える力を育みます。",
+    description_EN:
+      "Millab offers fun, hands-on science experiments online for elementary school students. Inspire curiosity and critical thinking through engaging STEM activities supervised by experts, all from the comfort of your home.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Jquery", icon: jqueryicon },
+      { name: "STUDIO", icon: studio },
+      { name: "Vue", icon: vuejsicon },
+      { name: "SEO", icon: seo },
+      { name: "Google Font API", icon: googlefont },
+      { name: "MySQL", icon: mysql },
+    ],
+    image: millab,
+    deploymenturl: "https://millab.jp/products/millabe01",
+    githuburl:"https://github.com/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
+    },
+  },
+  //Hitosara Kumamoto Restaurants
   {
     title: "Hitosara Kumamoto Restaurants",
     description:
@@ -132,10 +198,11 @@ export const projectsData = [
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "Jquery", icon: jqueryicon },
-      { name: "REST Api", icon: apiicon },
       { name: "PHP", icon: phpicon },
+      { name: "Laravel", icon: laravel },
       { name: "Video", icon: video },
       { name: "Canva", icon: canvaicon },
+      { name: "REST Api", icon: apiicon },
       { name: "Hubspot", icon: hubspot },
       { name: "Amazon", icon: amazonicon },
       { name: "Open graph", icon: opengraph },
@@ -154,131 +221,7 @@ export const projectsData = [
       projectcolor: "#70B9BE",
     },
   },
-  {
-    title: "Mali Thai",
-    description:
-      "マリタイは、甑島にある本格タイ料理レストランです。タイ人シェフが腕をふるう本場の味を、新鮮な食材と共にリラックスできる島の空間でお楽しみいただけます。地元の方にも観光客にもおすすめの一軒です。",
-    description_EN:
-      "Mali Thai is a Thai restaurant located on Koshiki Island, offering authentic Thai flavors made with fresh ingredients. Enjoy delicious dishes prepared by a Thai chef in a relaxing island setting. A perfect spot for both locals and travelers seeking a unique dining experience.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "Jquery", icon: jqueryicon },
-      { name: "GSAP", icon: gsapicon },
-      { name: "Render", icon: rendericon },
-      { name: "Google Font", icon: googlefont },
-      { name: "Open graph", icon: opengraph },
-      { name: "Unpkg", icon: unpkg },
-      { name: "Cloudflare", icon: cloudflareicon },
-      { name: "Litespeed", icon: litespeedicon },
-    ],
-    image: malithaikoshiki,
-    deploymenturl: "https://malithaikoshiki.com/",
-    githuburl:"https://github.com/",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#FFD5BD",
-    },
-  },
-  {
-    title: "Takagi Accounting Office",
-    description:
-      "高木会計事務所は、鹿児島を拠点に税務・会計・経営コンサルティングを提供しています。確定申告や記帳代行、経営アドバイスなど、個人から法人まで幅広く対応。信頼と実績のあるサポートで、お客様のビジネスを支えます。",
-    description_EN:
-      "Takagi Accounting Office offers expert tax, accounting, and business consulting services based in Kagoshima. Supporting individuals and companies with tax returns, bookkeeping, and management advice, the office provides reliable and personalized support to help clients succeed financially.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "Jquery", icon: jqueryicon },
-      { name: "PHP", icon: phpicon },
-      { name: "Wordpress", icon: wordpressicon },
-      { name: "MySQL", icon: mysql },
-      { name: "Googletagicon", icon: googletagicon },
-      { name: "Open graph", icon: opengraph },
-      { name: "Unpkg", icon: unpkg },
-      { name: "Cloudflare", icon: cloudflareicon },
-    ],
-    image: takagikaikei,
-    deploymenturl: "https://takagi-kaikei.com/",
-    githuburl:"https://github.com/",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#FFD5BD",
-    },
-  },
-  {
-    title: "Barga Villas",
-    description:
-      "バルガヴィラは、イタリア・トスカーナ地方の美しい町バルガにある高級バケーションレンタルです。伝統的なイタリア建築と現代的な快適さが融合したヴィラで、自然と文化に囲まれた贅沢な休暇をお楽しみいただけます。",
-    description_EN:
-      "Barga Villas offers exclusive holiday rentals in the charming town of Barga, Tuscany. Surrounded by breathtaking landscapes and rich culture, each villa blends traditional Italian architecture with modern comforts—perfect for a relaxing and authentic Tuscan escape.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "PHP", icon: phpicon },
-      { name: "Wordpress", icon: wordpressicon },
-      { name: "Vue", icon: vuejsicon },
-      { name: "MySQL", icon: mysql },
-      { name: "Emoticon", icon: emoticon },
-      { name: "RSS", icon: rssicon },
-      { name: "Unpkg", icon: unpkg },
-      { name: "Google Font", icon: googlefont },
-      { name: "Figma", icon: figmaicon },
-    ],
-    image: ilovebargavillas,
-    deploymenturl: "https://www.ilovebargavillas.com/",
-    githuburl:"https://github.com/",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#FFD5BD",
-    },
-  },
-  {
-    title: "Komons ",
-    description:
-      "コモンズは、天然素材と上質な香り、そして美しいデザインが融合した日本製ホームケア製品を提供しています。食器用洗剤からルームスプレーまで、日常の掃除やケアを心地よく、特別な時間に変える製品が揃っています。",
-    description_EN:
-      "Komons offers premium Japanese home care products that combine natural ingredients with elegant design and refined fragrance. From dish soap to room sprays, every item is crafted with care to make daily cleaning a more enjoyable and meaningful experience.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "Jquery", icon: jqueryicon },
-      { name: "Shopify", icon: shopifyicon },
-      { name: "Cloudflare", icon: cloudflareicon },
-      { name: "Googletagicon", icon: googletagicon },
-      { name: "Open graph", icon: opengraph },
-      { name: "Google Font", icon: googlefont },
-      { name: "MySQL", icon: mysql },
-      { name: "Unpkg", icon: unpkg },
-    ],
-    image: komons,
-    deploymenturl: "https://komons-japan.com/",
-    githuburl:"https://github.com/",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#FFD5BD",
-    },
-  },
+  //Kikkoman Global 
   {
     title: "Kikkoman Global ",
     description:
@@ -290,6 +233,7 @@ export const projectsData = [
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "Jquery", icon: jqueryicon },
+      { name: "Axios", icon: axiosicon },
       { name: "Cloudflare", icon: cloudflareicon },
       { name: "Googletagicon", icon: googletagicon },
       { name: "React", icon: reacticon },
@@ -303,6 +247,43 @@ export const projectsData = [
     ],
     image: kikkoman,
     deploymenturl: "https://www.kikkoman.com/en/",
+    githuburl:"https://github.com/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
+    },
+  },
+  //TokyoTreat
+  {
+    title: "TokyoTreat",
+    description:
+      "日本から直送！本場のスナック、キャンディー、ドリンクを毎月お届け。東京トリートで、キットカットやポッキーなどの人気・限定お菓子を楽しみながら、日本文化を味わおう。",
+    description_EN:
+      "Get a monthly box of authentic Japanese snacks, candies, and drinks delivered straight from Japan! TokyoTreat brings you popular and exclusive treats, from KitKats to Pocky, curated to give you a taste of Japanese culture.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Typescript", icon: typescripticon },
+      { name: "React", icon: reacticon },
+      { name: "Next", icon: nextjsicon },
+      { name: "REST Api", icon: apiicon },
+      { name: "Axios", icon: axiosicon },
+      { name: "SEO", icon: seo },
+      { name: "MySQL", icon: mysql },
+      { name: "RSS", icon: rssicon },
+      { name: "Emotion", icon: emoticon },
+      { name: "Google Tag", icon: googletagicon },
+      { name: "Cloudflare", icon: cloudflareicon },
+      { name: "Render", icon: render },
+      
+    ],
+    image: tokyotreat,
+    deploymenturl: "https://tokyotreat.com/",
     githuburl:"https://github.com/",
     githubicon: FiGithub,
     deploymenticon: FiLink,
@@ -464,6 +445,7 @@ export const skillsDataCMS = [
         icon: webflowicon,
         color: "#4353FF",
       },
+      
     ],
   },
 ] as const;
