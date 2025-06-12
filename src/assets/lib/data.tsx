@@ -33,7 +33,7 @@ import phpicon from "../../assets/icons/phpicon.svg";
 import video from "../../assets/icons/video.svg";
 import hubspot from "../../assets/icons/hubspot.svg";
 import amazonicon from "../../assets/icons/amazonicon.svg";
-import litespeedicon from "../../assets/icons/litespeedicon.svg";
+// import litespeedicon from "../../assets/icons/litespeedicon.svg";
 import googlefont from "../../assets/icons/googlefont.svg";
 import opengraph from "../../assets/icons/opengraph.svg";
 import unpkg from "../../assets/icons/unpkg.svg";
@@ -50,7 +50,6 @@ import toollifelabel from "../../assets/img/tools.lifelabel.png"
 import tokyotreat from "../../assets/img/tokyotreat.png";
 import profilepicture from "../img/me2.webp";
 import kumamoto from "../img/kumamoto.png";
-import takagikaikei from "../img/takagikaikei.png";
 import millab from "../img/millab.png";
 import mwmoutdoor from "../img/mwm-outdoor.com.png";
 import kikkoman from "../img/kikkoman.png";
